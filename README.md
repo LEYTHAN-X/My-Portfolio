@@ -18,76 +18,6 @@ A beautiful, modern portfolio website built with MERN stack featuring smooth ani
 - React Icons
 - CSS3 with modern styling
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB (optional - for future features)
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd portfolio
-```
-
-2. Install all dependencies:
-```bash
-npm run install-all
-```
-
-Or install separately:
-```bash
-# Install root dependencies
-npm install
-
-# Install server dependencies
-cd server
-npm install
-
-# Install client dependencies
-cd ../client
-npm install
-```
-
-3. Create a `.env` file in the root directory (optional for MongoDB):
-```env
-MONGODB_URI=your_mongodb_connection_string
-PORT=5000
-```
-
-## Running the Application
-
-### Development Mode
-
-Run both client and server concurrently:
-```bash
-npm run dev
-```
-
-Or run separately:
-
-**Terminal 1 - Server:**
-```bash
-npm run server
-```
-
-**Terminal 2 - Client:**
-```bash
-npm run client
-```
-
-The application will be available at:
-- Frontend: http://localhost:3000
-- Backend: http://localhost:5000
-
-### Production Build
-
-Build the React app:
-```bash
-npm run build
-```
-
 ## Project Structure
 
 ```
@@ -105,8 +35,6 @@ portfolio/
 │   │   ├── App.js
 │   │   └── index.js
 │   └── package.json
-├── server/                # Express backend
-│   └── index.js
 ├── package.json
 └── README.md
 ```
@@ -145,17 +73,6 @@ To customize the portfolio:
 cd client
 npm run build
 ```
-
-2. Deploy the `client/build` folder to Vercel
-
-### Deploy Backend
-
-Deploy the server to platforms like:
-- Heroku
-- Railway
-- Render
-- DigitalOcean
-
 ## License
 
 MIT License
